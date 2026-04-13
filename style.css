@@ -677,11 +677,27 @@ h6 {
 
 .contact-item:hover {
     color: var(--accent-primary);
+    transform: translateX(6px);
+}
+
+.contact-item:hover .fa-whatsapp {
+    color: #25D366;
+}
+
+.contact-item:hover .fa-envelope {
+    color: #EA4335;
+}
+
+.contact-item:hover .fa-map-marker-alt {
+    color: #4285F4;
 }
 
 .contact-item i {
     font-size: 24px;
     color: var(--text-muted);
+    transition: var(--transition);
+    width: 28px;
+    text-align: center;
 }
 
 /* ===== Footer ===== */
